@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 98vh;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+.screen{
+  width: 100%;
+  height: 100%;
+}
+.banner{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373737;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  gap: 10rem;
+}
